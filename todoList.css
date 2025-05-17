@@ -21,8 +21,8 @@
     width: 100%;
     max-width: 540px;
     background: #fff;
-    margin: 100px auto 20px;
-    padding: 40px 30px 70px;
+    margin: 30px auto 20px;
+    padding: 40px 30px 40px;
     border-radius: 10px;
 }
 
@@ -123,8 +123,38 @@ button:active {
 }
 
 
+.list-card {
+    /* height: auto; */
+    width: 100%;
+    max-width: 540px;
+    background: #fff;
+    margin: 50px auto 20px;
+    padding: 20px 30px 70px;
+    border-radius: 10px;
+    overflow-y: auto;
+}
 
 
+.task-heading {
+  font-size: 35px;
+  color: #002765;
+}
+
+
+.line {
+  border-bottom: 4px solid #002765;
+  display: block;
+  margin-left: 20px;
+  border-radius: 50px;
+  width: 80px;
+  height: 8px;
+  background: #002765;
+}
+
+
+ul {
+  margin-top: 20px;
+}
 
 
 ul li {
