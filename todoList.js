@@ -6,9 +6,11 @@ const listContainer = document.getElementById("list-container");
 function addTask(){
     if(inputBox.value === ""){
         alert("you must write something!");
+    }else if(inputBox.value === " "){
+         alert("you must write something!");
     }else{
         let li = document.createElement("li");
-        li.innerHTML = inputBox.value;
+        li.innerHTML = inputBox.value.trim();
         listContainer.appendChild(li);
 
         let span = document.createElement("span");
